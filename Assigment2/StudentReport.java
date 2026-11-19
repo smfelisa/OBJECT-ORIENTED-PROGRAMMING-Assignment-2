@@ -6,7 +6,6 @@ public class StudentReport {
     // and displays the information of every student in the array.
     public void displayStudentReport(Student[] students) {
 
-        System.out.println("\n--- STUDENT REPORT ---");
 
         // A for loop is used to go through every Student object inside the students array, one student at a time.
         for (int i = 0; i < students.length; i++) {
